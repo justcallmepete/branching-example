@@ -1,5 +1,8 @@
-const button = document.querySelector('.buttonUno').addEventListener('click', Pew);
 
-function Pew(){
+var pewBtn = document.querySelector('#buttonUno');
+
+pewBtn.addEventListener("click", pewFunction);
+
+function pewFunction(){
     alert('pew');
 }
